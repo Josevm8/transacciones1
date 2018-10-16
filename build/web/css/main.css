@@ -1,0 +1,42 @@
+body, select, input {
+    font-family: Tahoma,Verdana,Arial;
+    font-size: .8em;
+    font-style: normal;
+    color: #333;
+}
+
+select {
+    border: 1px solid #99bbe8;
+    font-size: 1em;
+}
+
+input {
+    font-size: 1em;
+}
+
+.tindex {
+    margin:auto;
+    background-color: #ebf3fd;
+    border: 1px solid #99bbe8;
+    padding: 4px;
+    margin-bottom: 6px;
+}
+
+.tindex .check {
+    width: 120px;
+    height: 88px;
+    overflow: auto;
+    border: 1px solid #99bbe8;
+    background-color: #fff
+}
+
+.tindex table {
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+
+.tindex .tipo {
+    border: 1px solid #99bbe8;
+    padding: 3px;
+    background-color: #fff
+}

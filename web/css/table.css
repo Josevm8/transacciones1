@@ -1,0 +1,82 @@
+table.clasico { 
+    border-collapse: collapse;
+    border: 1px solid #99bbe8;
+    width:100%;
+}
+
+table.clasico thead th,
+table.clasico thead td {
+    color: #000;
+    background-image: url('../images/tabla_th.gif');
+    background-repeat:  repeat-x;
+    height: 16px;
+    padding: 3px;
+    padding-left: 8px;
+    border-collapse: collapse;
+    border: 1px solid #d0d0d0; 
+    border-top: none;
+    font-weight: bold;
+}
+
+table.clasico caption {
+    color: #15428b;
+    background-image: url('../images/tabla_bar.gif');
+    background-repeat:  repeat-x;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 1px solid #99bbe8;
+    border-top: none;
+    border-bottom: none;
+    padding: 3px;
+    padding-left: 8px;
+}
+
+table.clasico tbody td {
+    padding: 4px;
+    padding-left: 8px;
+}
+
+table.clasico tfoot th,
+table.clasico tfoot td {
+    color: #6c6c6c;
+    background-image: url('../images/tabla_foot.gif');
+    background-repeat:  repeat-x;
+    height: 16px;
+    padding: 3px;
+    text-align: center;
+    border-collapse: collapse;
+    border: none;
+    border-top: 1px #d0d0d0 solid;
+}
+
+table.clasico caption select {
+    color: #15428b;
+    font-size: 9px;
+    border-style: inset;
+    margin: 0;
+}
+
+table.clasico caption select option {
+    color: #15428b;
+    font-size: 10px;
+    margin: 0;
+}
+
+table.clasico tbody tr:hover {
+    background-color: #d5e4f5;
+    color: #900;
+}
+
+table.clasico tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+table.clasico tr:nth-of-type(even) {
+    background-color: #f0f1f3;
+}
+
+table.clasico input[type='text'] {
+    text-align:right;
+}
